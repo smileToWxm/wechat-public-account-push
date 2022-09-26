@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooBv552BnkYZpOSI8AFDsb55qA6c',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '6OCPs2hfHlPejD_90iDemhg2tA2I5bqDMBS1kZsuCMI',
+      useTemplateId: '_Ep0dFz_82qhne41T27XPGy_apy8_8hrpaHNksi5vPw',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -85,14 +85,10 @@ const USER_CONFIG = {
         }
       ],
         // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-//       customizedDateList: [
-//         // 在一起的日子
-//         { keyword: 'birday_day', date: '2022-09-08' },
-//         // 结婚纪念日
-//         { keyword: 'marry_day', date: '2022-09-09' },
-//         // 退伍日
-//         { keyword: 'ex_day', date: '2022-09-10' }
-//       ],
+      customizedDateList: [
+        // 认识的日子
+        { keyword: 'acquaintance_day', date: '1993-03-10' },
+      ],
       
     },
     {
@@ -101,7 +97,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooBv557znz4TEpBfYQebSDH_PiPk',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '6OCPs2hfHlPejD_90iDemhg2tA2I5bqDMBS1kZsuCMI',
+      useTemplateId: '_Ep0dFz_82qhne41T27XPGy_apy8_8hrpaHNksi5vPw',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -118,6 +114,11 @@ const USER_CONFIG = {
           type: '*生日', name: '么么明', year: '1992', date: '01-22',
         }
       ],
+        // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 认识的日子
+        { keyword: 'acquaintance_day', date: '2020-03-01' },
+      ],
     },
       {
       // 想要发送的人的名字
@@ -125,7 +126,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooBv55wZ9_gWtwVfCtQeLzYCptzk',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '6OCPs2hfHlPejD_90iDemhg2tA2I5bqDMBS1kZsuCMI',
+      useTemplateId: '_Ep0dFz_82qhne41T27XPGy_apy8_8hrpaHNksi5vPw',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -142,6 +143,40 @@ const USER_CONFIG = {
           type: '*生日', name: '么么明', year: '1992', date: '12-09',
         }
       ],
+          // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 认识的日子
+        { keyword: 'acquaintance_day', date: '2020-06-10' },
+      ],
+    },
+     {
+      // 想要发送的人的名字
+      name: '阿伟',
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'ooBv55xS04MOUQ8FYuyQ0JFMEnro',
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: '_Ep0dFz_82qhne41T27XPGy_apy8_8hrpaHNksi5vPw',
+      // 所在省份
+      province: '福建',
+      // 所在城市
+      city: '漳州',
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '08-09',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '亲爱的阿伟', year: '1993', date: '08-09',
+        }
+      ],
+         // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 认识的日子
+        { keyword: 'acquaintance_day', date: '2020-08-20' },
+      ],
     },
     {
       // 想要发送的人的名字
@@ -149,7 +184,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooBv55w1iL_4V9-tgN3b7PFztgHA',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '6OCPs2hfHlPejD_90iDemhg2tA2I5bqDMBS1kZsuCMI',
+      useTemplateId: '_Ep0dFz_82qhne41T27XPGy_apy8_8hrpaHNksi5vPw',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -166,6 +201,11 @@ const USER_CONFIG = {
           type: '*生日', name: '么么明', year: '1996', date: '05-30',
         }
       ],
+        // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 认识的日子
+        { keyword: 'acquaintance_day', date: '2014-08-08' },
+      ],
     },
     {
       // 想要发送的人的名字
@@ -173,7 +213,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooBv55wN-uKAgljln_EXynIik57g',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '6OCPs2hfHlPejD_90iDemhg2tA2I5bqDMBS1kZsuCMI',
+      useTemplateId: '_Ep0dFz_82qhne41T27XPGy_apy8_8hrpaHNksi5vPw',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -189,6 +229,11 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '么么明', year: '1996', date: '02-12',
         }
+      ],
+        // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 认识的日子
+        { keyword: 'acquaintance_day', date: '2012-09-02' },
       ],
     },
   ],
