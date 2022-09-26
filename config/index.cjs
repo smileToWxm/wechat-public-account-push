@@ -288,4 +288,4 @@ const USER_CONFIG = {
   // 默认的课表配置
   COURSE_SCHEDULE: null
 }
-export default USER_CONFIG
+module.exports = USER_CONFIG
