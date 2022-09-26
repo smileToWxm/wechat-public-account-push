@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooBv552BnkYZpOSI8AFDsb55qA6c',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'GnX5ml1rbK_euCngrUDaiIxOkFp8LMEHD-BClJl5os8',
+      useTemplateId: '6OCPs2hfHlPejD_90iDemhg2tA2I5bqDMBS1kZsuCMI',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -78,6 +78,22 @@ const USER_CONFIG = {
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '么么明', year: '1997', date: '03-10',
+        }
+      ],
+        // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+//       customizedDateList: [
+//         // 在一起的日子
+//         { keyword: 'birday_day', date: '2022-09-08' },
+//         // 结婚纪念日
+//         { keyword: 'marry_day', date: '2022-09-09' },
+//         // 退伍日
+//         { keyword: 'ex_day', date: '2022-09-10' }
+//       ],
+      
     },
     {
       // 想要发送的人的名字
@@ -85,7 +101,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooBv557znz4TEpBfYQebSDH_PiPk',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'GnX5ml1rbK_euCngrUDaiIxOkFp8LMEHD-BClJl5os8',
+      useTemplateId: '6OCPs2hfHlPejD_90iDemhg2tA2I5bqDMBS1kZsuCMI',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -96,6 +112,12 @@ const USER_CONFIG = {
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '么么明', year: '1992', date: '01-22',
+        }
+      ],
     },
       {
       // 想要发送的人的名字
@@ -103,7 +125,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooBv55wZ9_gWtwVfCtQeLzYCptzk',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'GnX5ml1rbK_euCngrUDaiIxOkFp8LMEHD-BClJl5os8',
+      useTemplateId: '6OCPs2hfHlPejD_90iDemhg2tA2I5bqDMBS1kZsuCMI',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -114,6 +136,12 @@ const USER_CONFIG = {
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '么么明', year: '1992', date: '12-09',
+        }
+      ],
     },
     {
       // 想要发送的人的名字
@@ -121,7 +149,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooBv55w1iL_4V9-tgN3b7PFztgHA',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'GnX5ml1rbK_euCngrUDaiIxOkFp8LMEHD-BClJl5os8',
+      useTemplateId: '6OCPs2hfHlPejD_90iDemhg2tA2I5bqDMBS1kZsuCMI',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -132,6 +160,12 @@ const USER_CONFIG = {
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '么么明', year: '1996', date: '05-30',
+        }
+      ],
     },
     {
       // 想要发送的人的名字
@@ -139,7 +173,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ooBv55wN-uKAgljln_EXynIik57g',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'GnX5ml1rbK_euCngrUDaiIxOkFp8LMEHD-BClJl5os8',
+      useTemplateId: '6OCPs2hfHlPejD_90iDemhg2tA2I5bqDMBS1kZsuCMI',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -150,6 +184,12 @@ const USER_CONFIG = {
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '么么明', year: '1996', date: '02-12',
+        }
+      ],
     },
   ],
 
@@ -202,24 +242,6 @@ const USER_CONFIG = {
    * 删除isShowAge属性，也会不展示岁数
    * --- 是否展示周岁信息结束 ---
    */
-  FESTIVALS: [
-    // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {
-      type: '生日', name: '乖乖', year: '1996', date: '09-27', isShowAge: true,
-    },
-    {
-      type: '节日', name: '露露', year: '2022', date: '09-26',
-    },
-    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {
-      type: '生日', name: '李四', year: '1996', date: '09-31', isShowAge: true,
-    },
-    {
-      type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
-    }
-    // 你可以不断按格式往下增加
-    // ...
-  ],
 
   /**
    * 限制重要节日的展示条目, 需要填写数字;
@@ -234,18 +256,18 @@ const USER_CONFIG = {
    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
    * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
    * */
-  CUSTOMIZED_DATE_LIST: [
-    // 在一起的日子
-    { keyword: 'love_day', date: '2022-09-08' },
-    // 结婚纪念日
-    { keyword: 'marry_day', date: '2022-09-09' },
-    // 退伍日
-    { keyword: 'ex_day', date: '2022-09-10' },
-     // 认识的日子
-    { keyword: 'acquaintance_day', date: '1997-03-10' }
-    // 你可以不断按格式往下增加
-    // ...
-  ],
+//   CUSTOMIZED_DATE_LIST: [
+//     // 在一起的日子
+//     { keyword: 'love_day', date: '2022-09-08' },
+//     // 结婚纪念日
+//     { keyword: 'marry_day', date: '2022-09-09' },
+//     // 退伍日
+//     { keyword: 'ex_day', date: '2022-09-10' },
+//      // 认识的日子
+//     { keyword: 'acquaintance_day', date: '1997-03-10' }
+//     // 你可以不断按格式往下增加
+//     // ...
+//   ],
 
   /** 插槽 */
 
